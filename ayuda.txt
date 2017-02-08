@@ -1,0 +1,3 @@
+Yoigo con datos Version 0.2 Alpha
+Comandos:
+/chiste = te cuenta un chiste pero sin gracia xdddddd

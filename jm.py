@@ -29,6 +29,10 @@ def boton(messages):
             rndvoice = random.choice([open('./audio/voz1.ogg', 'rb'), open('./audio/iscdildo.ogg', 'rb'), open('./audio/laslolis.ogg', 'rb'), open('./audio/megustan.ogg', 'rb')])
             bot.send_voice(cid, rndvoice)
             bot.send_voice(cid, "FILEID")
+        elif msg.text == '!petada':
+            petada = open('./audio/petada.ogg', 'rb')
+            bot.send_voice(cid, petada)
+            bot.send_voice(cid, "FILEID")
         elif msg.text == '@JuanmaHL':
             bot.reply_to(msg, "Mi creador <3")
         elif msg.text == '!boton':

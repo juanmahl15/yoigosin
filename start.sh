@@ -1,0 +1,1 @@
+nohup python jm.py &

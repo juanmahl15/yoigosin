@@ -69,5 +69,6 @@ def chiste(msg):
   random.shuffle(lines)
   bot.reply_to(msg, lines)
 
+
 bot.set_update_listener(boton)
 bot.polling(none_stop=True)
